@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+.headline {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    text-align: center;
+    /*text-shadow: 4px 3px 0px rgb(197, 159, 159), 9px 8px 0px rgba(0,0,0,0.15);*/
+    text-shadow: -10px 10px 0px #82e600,
+                 -20px 20px 0px #3bcc01,
+                 -30px 30px 0px #00bd00,
+                 -40px 40px 0px #119005;
+    transform: translate(-50%, -80%);
+    font-size: 6rem;
+
+    color: #eee;
+    padding: 3% 3%;
+}
